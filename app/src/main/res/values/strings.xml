@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="facebook_app_id">facebook_app_id</string>
+    <string name="app_name">Whichone</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="whichone">WHICHONE</string>
+
+    <string name="drawer_opened">drawer opened</string>
+    <string name="drawer_closed">drawer closed</string>
+
+    <string name="drawer_item_1">Whichone?</string>
+    <string name="drawer_item_2">My Wins</string>
+    <string name="drawer_item_4">Location</string>
+    <string name="drawer_item_3">Logout</string>
+
+
+    <string name="no_data_head_1">You have already voted all combinations.</string>
+    <string name="no_data_but">But,</string>
+    <string name="no_data_spread">How about to spread?</string>
+
+    <string name="notif_text">" likes you!"</string>
+
+    <string name="win_subtitle">Likes you against </string>
+    <string name="win_subtitle_lost">lost.</string>
+
+    <string name="man">men</string>
+    <string name="women">girls</string>
+    <string name="share">Share</string>
+
+
+    <string name="dialog_info_match_header">Like or not!</string>
+    <string name="dialog_info_match_content">You can like one of them. We will notify people you like and they can message you. You can meet people who like you on left side menu.</string>
+    <string name="dialog_info_match_action">I got it.</string>
+
+
+    <string name="dialog_info_beta_header">3 seconds!</string>
+    <string name="dialog_info_beta_content">This is beta version. We could not predict that it will be popular or not. We can develop more feature if you comment on Google Play page.</string>
+    <string name="dialog_info_beta_action">I support you.</string>
+
+    <string name="previous">PREVIOUS</string>
+    <string name="next">NEXT</string>
+    <string name="login">LOGIN</string>
+
+    <string name="walk_1_header">COMPARE PEOPLE.</string>
+    <string name="walk_2_header">SEE PEOPLE WHO LIKE YOU.</string>
+    <string name="walk_3_header">SEE WHO IS AROUND.</string>
+    <string name="walk_3_header_2">CLICK LOGIN TO COMPARE PEOPLE.</string>
+    <string name="lisa">Lisa</string>
+    <string name="you">you.</string>
+
+    <string name="dialog_win_send_message">SEND MESSAGE</string>
+    <string name="dialog_win_add_on_facebook">ADD ON FACEBOOK</string>
+    <string name="no_available_yet">This is not available yet.We will publish new version soon.</string>
+
+    <!--Preference Screen -->
+
+    <string name="preference_header_notification">Notifications</string>
+    <string name="preference_subtitle_notification_1_title">Mute Notifications</string>
+    <string name="preference_subtitle_notification_1_subtitle">Mute all notification when someone likes my picture.</string>
+
+
+</resources>

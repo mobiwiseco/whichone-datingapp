@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <view.RobotoRegularTextView
+        android:id="@+id/textview_info_dialog_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/color_main"
+        android:textSize="20sp"/>
+
+    <view.RobotoLightTextView
+        android:id="@+id/textview_info_dialog_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_info_dialog_header"
+        android:layout_alignLeft="@+id/textview_info_dialog_header"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/color_main"
+        android:textSize="17sp"/>
+
+    <view.RobotoRegularTextView
+        android:id="@+id/textview_info_dialog_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_info_dialog_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/color_main"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

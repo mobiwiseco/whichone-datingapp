@@ -1,0 +1,231 @@
+<ui.RevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/reveal_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/relative_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <view.RobotoLightTextView
+                android:id="@+id/versus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="35sp"
+                android:text="VS"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color_main" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/versus">
+
+                <View
+                    android:id="@+id/middle_dot"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/purple_dot"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="65dp" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@+id/middle_dot"
+                    android:layout_marginLeft="16dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageview_profile_1"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:border_width="1dp"
+                        app:border_color="@color/color_main_light" />
+
+                    <fr.castorflex.android.circularprogressbar.CircularProgressBar
+                        android:id="@+id/progress_pic_1"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:indeterminate="true"
+                        app:cpb_color="@color/color_main"
+                        app:cpb_rotation_speed="1.0"
+                        android:layout_marginTop="40dp"
+                        app:cpb_stroke_width="3dp"
+                        app:cpb_sweep_speed="1.0"
+                        app:cpb_min_sweep_angle="10"
+                        android:layout_centerHorizontal="true"
+                        app:cpb_max_sweep_angle="300" />
+
+                    <view.RobotoLightTextView
+                        android:id="@+id/textview_name_profile_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="22sp"
+                        android:textColor="@color/color_main"
+                        android:text="Mert"
+                        android:layout_below="@+id/imageview_profile_1"
+                        android:layout_marginTop="4dp" />
+
+                    <fr.castorflex.android.flipimageview.library.FlipImageView
+                        android:id="@+id/imageview_like_1"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/textview_name_profile_1"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/icon_like_unselected" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/middle_dot">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageview_profile_2"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:border_width="1dp"
+                        app:border_color="@color/color_main_light"
+                        />
+
+                    <fr.castorflex.android.circularprogressbar.CircularProgressBar
+                        android:id="@+id/progress_pic_2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:indeterminate="true"
+                        app:cpb_color="@color/color_main"
+                        app:cpb_rotation_speed="1.0"
+                        android:layout_marginTop="40dp"
+                        app:cpb_sweep_speed="1.0"
+                        app:cpb_stroke_width="3dp"
+                        android:layout_centerHorizontal="true"
+                        app:cpb_min_sweep_angle="10"
+                        app:cpb_max_sweep_angle="300" />
+
+                    <view.RobotoLightTextView
+                        android:id="@+id/textview_name_profile_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="22sp"
+                        android:textColor="@color/color_main"
+                        android:text="Jude"
+                        android:layout_below="@+id/imageview_profile_2"
+                        android:layout_marginTop="4dp" />
+
+                    <fr.castorflex.android.flipimageview.library.FlipImageView
+                        android:id="@+id/imageview_like_2"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/textview_name_profile_2"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/icon_like_unselected" />
+
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <fr.castorflex.android.flipimageview.library.FlipImageView
+            android:id="@+id/imageview_none"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/relative_main"
+            android:background="@drawable/icon_none_unselected_test" />
+
+
+        <ImageView
+            android:id="@+id/imageview_nodata_heart"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/icon_like_unselected"
+            android:layout_marginTop="40dp"
+            android:visibility="invisible" />
+
+        <view.RobotoLightTextView
+            android:id="@+id/textview_nodata_head_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/imageview_nodata_heart"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/color_main_light_0"
+            android:textSize="25sp"
+            android:text="@string/no_data_head_1"
+            android:visibility="invisible"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:gravity="center_horizontal" />
+
+        <view.RobotoLightTextView
+            android:id="@+id/textview_nodata_head_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textview_nodata_head_1"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/color_main_light_0"
+            android:textSize="25sp"
+            android:text="@string/no_data_but"
+            android:visibility="invisible"
+            android:gravity="center_horizontal" />
+
+
+        <view.RobotoLightTextView
+            android:id="@+id/textview_nodata_head_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textview_nodata_head_2"
+            android:textColor="@color/color_main_light_0"
+            android:textSize="25sp"
+            android:text="@string/no_data_spread"
+            android:visibility="invisible"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:gravity="center_horizontal" />
+
+
+        <view.RobotoRegularButton
+            android:id="@+id/button_nodata_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_share"
+            android:text="@string/share"
+            android:layout_below="@+id/textview_nodata_head_3"
+            android:textColor="@color/color_white"
+            android:layout_marginTop="32dp"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:visibility="invisible"
+            android:clickable="false" />
+
+
+    </RelativeLayout>
+
+</ui.RevealLayout>

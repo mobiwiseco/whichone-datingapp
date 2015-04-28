@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <view.RobotoThinTextView
+        android:id="@+id/walk_2_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_main"
+        android:text="@string/walk_2_header"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageview_walk_2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/walk_2_header"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/image_model_2"/>
+
+    <ImageView
+        android:id="@+id/walk_2_heart"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/icon_like_selected"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imageview_walk_2"/>
+
+
+    <view.RobotoLightTextView
+        android:id="@+id/text_walk_2_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lisa"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/color_main"
+        android:layout_toLeftOf="@+id/walk_2_heart"
+        android:layout_alignBottom="@+id/walk_2_heart"
+        android:layout_marginRight="10dp"/>
+
+
+
+    <view.RobotoLightTextView
+        android:id="@+id/text_walk_2_you"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/you"
+        android:textSize="20sp"
+        android:textColor="@color/color_main"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@+id/walk_2_heart"
+        android:layout_alignBottom="@+id/walk_2_heart"
+        android:layout_marginLeft="10dp"/>
+
+
+
+
+</RelativeLayout>

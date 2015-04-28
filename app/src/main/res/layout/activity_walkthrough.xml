@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white">
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linear_buttons"
+        android:layout_marginBottom="20dp">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager_walkthrough"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/pager_indicator" />
+
+        <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/pager_indicator"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:background="#00FFFFFF" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <view.RobotoThinButton
+            android:id="@+id/button_previous"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:textSize="24sp"
+            android:textColor="@color/color_main"
+            android:text="@string/previous"
+            android:background="@drawable/button_previous"
+            android:visibility="invisible" />
+
+        <RelativeLayout
+            android:id="@+id/relative_login"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:layout_height="50dp">
+
+
+
+            <view.RobotoFacebookButton
+                android:id="@+id/button_login"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textSize="24sp"
+                android:text="@string/login"
+                android:textColor="@color/color_white"
+                android:background="@drawable/button_next"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentLeft="true"
+                android:visibility="invisible"
+                android:clickable="false"/>
+
+            <view.RobotoThinButton
+                android:id="@+id/button_next"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textSize="24sp"
+                android:textColor="@color/color_white"
+                android:text="@string/next"
+                android:background="@drawable/button_next"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentLeft="true" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook_app_id">397631200392223</string>
+    <string name="app_name">Whichone</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="whichone">WHICHONE</string>
+
+    <string name="drawer_opened">drawer opened</string>
+    <string name="drawer_closed">drawer closed</string>
+
+    <string name="drawer_item_1">Karşılaştır?</string>
+    <string name="drawer_item_2">Beni Beğenenler</string>
+    <string name="drawer_item_4">Konum Seç</string>
+    <string name="drawer_item_3">Çıkış Yap</string>
+
+
+    <string name="no_data_head_1">Tüm karşılaştırmaları oyladın.</string>
+    <string name="no_data_but">Fakat,</string>
+    <string name="no_data_spread">Paylaşıp yaymaya ne dersin?</string>
+
+    <string name="notif_text">" seni beğendi!"</string>
+
+    <string name="win_subtitle_lost">kaybetti.</string>
+    <string name="win_subtitle">Seni beğendi.</string>
+
+    <string name="man">Erkek</string>
+    <string name="women">kız</string>
+    <string name="share">Paylaş</string>
+
+    <string name="previous">ÖNCEKİ</string>
+    <string name="next">SONRAKİ</string>
+    <string name="login">GİRİŞ YAP</string>
+
+    <string name="walk_1_header">İNSANLARI KARŞILAŞTIR.</string>
+    <string name="walk_2_header">SENİ BEĞENENLERİ GÖR.</string>
+    <string name="walk_3_header">ETRAFINDAKİ KİŞİLERİ GÖR.</string>
+    <string name="walk_3_header_2">İNSALARI KARŞILAŞTIRMAK İÇİN TIKLA.</string>
+    <string name="lisa">Lisa</string>
+    <string name="you">beğendi.</string>
+
+    <string name="dialog_win_send_message">MESAJ GÖNDER</string>
+    <string name="dialog_win_add_on_facebook">FACEBOOK\'TA EKLE</string>
+    <string name="no_available_yet">Bu özellik henüz kullanılabilir değil.Yakında eklenecektir.</string>
+
+    <!--info dialogs -->
+    <string name="dialog_info_match_header">Seç ya da geç!</string>
+    <string name="dialog_info_match_content">Karşına gelen rastgele ikililerden tanışmak istediğini seçebilirsin. Böylece o kişiye sana mesaj atma şansı sunacağız. Ayrıca "Beni Beğenenler" menüsünden seni beğenen kişiler ile arkadaşlık kurabilirsin.</string>
+    <string name="dialog_info_match_action">Anladım.</string>
+
+    <!-- beta dialog-->
+    <string name="dialog_info_beta_header">3 saniye bakarmısın!</string>
+    <string name="dialog_info_beta_content">Beta sürümüdür. Uygulamanın tutup tutmayacağını kestiremedik. Google Play\'e yorum yazarsan istediğin özellikleri ekleyebiliriz.</string>
+    <string name="dialog_info_beta_action">Hemen yazıyorum.</string>
+
+
+    <!--Preference Screen -->
+
+    <string name="preference_header_notification">Bildirimler</string>
+    <string name="preference_subtitle_notification_1_title">Sessize Al</string>
+    <string name="preference_subtitle_notification_1_subtitle">Birileri senin fotoğrafını beğediğinde bildirimleri gösterme.</string>
+</resources>

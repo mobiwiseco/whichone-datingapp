@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageview_voter"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/imagejude"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_centerVertical="true"/>
+
+    <ImageView
+        android:id="@+id/imageview_win_green_dot"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/icon_green_dot"
+        android:layout_alignLeft="@+id/imageview_voter"
+        android:layout_alignBottom="@+id/imageview_voter"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"/>
+
+    <RelativeLayout
+        android:id="@+id/relative_win_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageview_voter"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp">
+
+        <view.RobotoLightTextView
+            android:id="@+id/textview_voter_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/color_main"
+            android:text="Jude Law(26)"
+            android:gravity="center_vertical"/>
+
+
+        <view.RobotoLightTextView
+            android:id="@+id/textview_loser_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_below="@+id/textview_voter_name"
+            android:textColor="@color/color_main_light_0"
+            android:text="Jude Law(26)"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

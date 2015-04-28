@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <view.RobotoThinTextView
+        android:id="@+id/walk_3_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_main"
+        android:text="@string/walk_3_header"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:id="@+id/imageview_walk_2"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/walk_3_header"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/image_circle_people"/>
+
+
+</RelativeLayout>

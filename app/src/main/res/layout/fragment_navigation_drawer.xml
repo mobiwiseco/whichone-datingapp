@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageview_navigation_profile"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/imagejude"
+        app:border_width="1dp"
+        app:border_color="@color/color_main_light" />
+
+    <ImageView
+        android:id="@+id/imageview_green_dot"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBottom="@+id/imageview_navigation_profile"
+        android:layout_alignLeft="@+id/imageview_navigation_profile"
+        android:background="@drawable/icon_green_dot"/>
+
+
+    <view.RobotoLightTextView
+        android:id="@+id/textview_navigation_name_surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_main"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageview_navigation_profile"
+        android:layout_marginTop="8dp"
+        android:text="Mert Şimşek" />
+
+    <view.RobotoLightTextView
+        android:id="@+id/textview_navigation_live"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_navigation_name_surname"
+        android:layout_marginTop="4dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/color_main_light_0"
+        android:textSize="20sp"
+        android:text="Bursa, Turkey" />
+
+
+    <ListView
+        android:id="@+id/listview_navigation"
+        android:layout_below="@+id/textview_navigation_live"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_above="@+id/button_share"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"/>
+
+    <view.RobotoRegularButton
+        android:id="@+id/button_share"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_share"
+        android:text="Share"
+        android:textColor="@color/color_white"
+        android:layout_marginBottom="16dp"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"/>
+
+</RelativeLayout>

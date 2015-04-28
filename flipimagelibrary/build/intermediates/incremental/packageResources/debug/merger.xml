@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/mertsimsek/Desktop/whichone-android/flipimagelibrary/res"><file path="/Users/mertsimsek/Desktop/whichone-android/flipimagelibrary/res/values/fiv__attrs.xml" qualifiers=""><declare-styleable name="FlipImageView">
+        <attr format="boolean" name="isAnimated"/>
+        <attr format="boolean" name="isFlipped"/>
+        <attr format="reference" name="flipDrawable"/>
+        <attr format="integer" name="flipDuration"/>
+        <attr format="reference" name="flipInterpolator"/>
+        <attr name="flipRotations">
+            <flag name="none" value="0"/>
+            <flag name="x" value="1"/>
+            <flag name="y" value="2"/>
+            <flag name="z" value="4"/>
+        </attr>
+        <attr format="boolean" name="reverseRotation"/>
+    </declare-styleable></file><file path="/Users/mertsimsek/Desktop/whichone-android/flipimagelibrary/res/values/fiv__defaults.xml" qualifiers=""><bool name="default_fiv_isAnimated">true</bool><bool name="default_fiv_isRotationReversed">false</bool><integer name="default_fiv_rotations">2</integer><integer name="default_fiv_duration">500</integer><bool name="default_fiv_isFlipped">false</bool></file></source><source path="/Users/mertsimsek/Desktop/whichone-android/flipimagelibrary/build/generated/res/rs/debug"/><source path="/Users/mertsimsek/Desktop/whichone-android/flipimagelibrary/build/generated/res/generated/debug"/></dataSet><dataSet config="debug"><source path="/Users/mertsimsek/Desktop/whichone-android/flipimagelibrary/src/debug/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="FlipImageView"><attr format="boolean" name="isAnimated"/><attr format="boolean" name="isFlipped"/><attr format="reference" name="flipDrawable"/><attr format="integer" name="flipDuration"/><attr format="reference" name="flipInterpolator"/><attr name="flipRotations"><flag name="none" value="0"/><flag name="x" value="1"/><flag name="y" value="2"/><flag name="z" value="4"/></attr><attr format="boolean" name="reverseRotation"/></declare-styleable></configuration></mergedItems></merger>
